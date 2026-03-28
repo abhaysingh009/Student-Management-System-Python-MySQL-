@@ -1,11 +1,11 @@
-# 🎓 Student Management System (Python + MySQL)
+#  Student Management System (Python + MySQL)
 
 A simple **Student Management System** built using **Python** and **MySQL**.
 This project performs basic **CRUD operations** (Create, Read, Update, Delete) through a command-line interface.
 
 ---
 
-## 🚀 Features
+##  Features
 
 * ➕ Add new student records
 * ❌ Delete existing student records
@@ -17,7 +17,7 @@ This project performs basic **CRUD operations** (Create, Read, Update, Delete) t
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Language:** Python
 * **Database:** MySQL
@@ -25,7 +25,7 @@ This project performs basic **CRUD operations** (Create, Read, Update, Delete) t
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 **Table Name:** `Student`
 
@@ -40,7 +40,7 @@ This project performs basic **CRUD operations** (Create, Read, Update, Delete) t
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Install Dependencies
+### 1. Install Dependencies
 
 ```bash
 pip install pymysql
@@ -48,7 +48,7 @@ pip install pymysql
 
 ---
 
-### 2️⃣ Setup MySQL Database
+### 2️. Setup MySQL Database
 
 * Open MySQL
 * Create database:
@@ -59,7 +59,7 @@ CREATE DATABASE school;
 
 ---
 
-### 3️⃣ Update Database Credentials
+### 3️. Update Database Credentials
 
 In the code, update:
 
@@ -74,7 +74,7 @@ con = sq.connect(
 
 ---
 
-### 4️⃣ Run the Program
+### 4️. Run the Program
 
 ```bash
 python main.py
@@ -82,7 +82,7 @@ python main.py
 
 ---
 
-## 📌 How It Works
+##  How It Works
 
 * The program connects to MySQL
 * Creates the `Student` table (if not exists)
@@ -91,7 +91,7 @@ python main.py
 
 ---
 
-## 🧠 Concepts Used
+##  Concepts Used
 
 * Python basics (loops, conditionals, functions)
 * Database connectivity (PyMySQL)
@@ -101,7 +101,7 @@ python main.py
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 * 🌐 Convert to **Flask Web Application**
 * 🖥️ Add **GUI using Tkinter**
@@ -110,7 +110,7 @@ python main.py
 
 ---
 
-## 📷 Sample Output
+##  Sample Output
 
 ```
 Enter Your Choice-->
